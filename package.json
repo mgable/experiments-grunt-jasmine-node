@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-gist",
+  "version": "1.0.0",
+  "description": "a gist to install and run jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mgable",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jasmine-nodejs": "^1.5.4",
+    "grunt-newer": "^1.2.0",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "load-grunt-tasks": "^3.5.2",
+    "proxyquire": "^1.7.10",
+    "time-grunt": "^1.4.0"
+  }
+}
