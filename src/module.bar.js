@@ -6,7 +6,6 @@
 
 	function bar (text){
 		var data = text + " " + m.foo();
-		console.info(data); 
 		return data;
 	}
 

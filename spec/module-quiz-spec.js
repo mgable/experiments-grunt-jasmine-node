@@ -19,7 +19,6 @@
         var objArray = [{i:aa, e:a}, {i:bb, e:b}, {i:cc, e:c}, {i:dd, e:d}];
 
         it("The lowest value is " + aa,  function() {
-          console.info(objArray);
           expect(quiz(objArray)).toEqual(aa);
         });
       })
